@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+/* PÁGINA INDEX */
+
+.menu_home{
+    width: 100%;
+    height: 55px;
+    background-color: #040D0A;
+    display: flex;
+    font-size: 18px;
+}
+
+.logo {
+    color: #E5E5E5;
+    width: 260px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+.menu_options{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    list-style: none;
+}
+
+.menu_link{
+    text-decoration: none;
+    color: #E5E5E5;
+}
+
+.menu_link:hover{
+    font-weight: 600;
+}
+
+.pagina{
+    width: 100%;
+    height: calc(100vh - 55px);
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.banner_lateral_home{
+    flex-basis: 265px;
+    background-image: url(../images/imagem_home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-size: 70px;
+    padding-left: 5px;
+}
+
+.container_conteudo{
+    flex-basis: calc(100vw - 265px);
+}
+
+.titulo_home{
+    font-size: 35px;
+    margin: 70px 0 40px 0;
+    padding-left: 30px;
+}
+
+.subtitulo_home{
+    font-size: 25px;
+    margin: 0 0 30px 0;
+    padding: 0 20px 0 30px;
+}
+
+.conteudo_home{
+    font-size: 18px;
+    padding: 0 60px 0 30px;
+    line-height: 25px;
+}
+
+.destaque_conteudo{
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.link_direcionamento{
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.link_direcionamento:hover{
+    color: #003631;
+}
+
+
+/* PÁGINA QUEM SOMOS */
+
+.pagina_quem_somos{
+    background-color: #e3f5f2;
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 55px);
+}
+
+.titulo_quem_somos{
+    font-size: 30px;
+    margin: 50px 0 30px 0;
+    padding-left: 30px;
+}
+
+.subtitulo_quem_somos{
+    font-size: 25px;
+    margin: 0 0 30px 0;
+    padding: 0 20px 0 30px;
+}
+
+.conteudo_quem_somos{
+    font-size: 20px;
+    padding: 0 70px 0 30px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+/* PÁGINA CADASTRO */
+
+.container_conteudo_cadastre{
+    flex-basis: calc(100vw - 900px);
+}
+
+.banner_lateral_cadastro{
+    flex-basis: 265px;
+    background-image: url(../images/imagem_cadastro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-size: 70px;
+    padding-left: 5px;
+}
+
+.titulo_cadastro{
+    font-size: 35px;
+    margin: 70px 0 40px 0;
+    padding-left: 30px;
+}
+
+.subtitulo_cadastro{
+    font-size: 25px;
+    margin: 0 0 30px 0;
+    padding: 0 20px 0 30px;
+}
+
+.forms_cadastre{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #040D0A;
+    width: 650px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 90px 60px 270px 50px;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #50463a;
+    font-size: 18px;
+    margin: 0 0 25px 5px;
+}
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 40px;
+}
+
+.in_line{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.cadastre {
+    text-decoration: none;
+    color: #040D0A;
+    border-radius: 15px;
+    background-color: #aee4da9f;
+    border: 1px #040D0A solid;
+    padding: 10px 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+}
+
+.cadastre:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #040D0A;
+    border: 1px #aee4da80 solid;
+}
+
+
+/* PÁGINA PONTOS TURÍSTICOS */
+
+.container_conteudo_pontos_turisticos{
+    flex-basis: calc(100vw - 880px);
+}
+
+.banner_lateral_pontos_turisticos{
+    flex-basis: 265px;
+    background-image: url(../images/imagem_cadastro_pontos_turisticos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-size: 70px;
+    padding-left: 5px;
+}
+
+.titulo_pontos_turisticos{
+    font-size: 35px;
+    margin: 70px 0 40px 0;
+    padding-left: 30px;
+}
+
+.subtitulo_pontos_turisticos{
+    font-size: 25px;
+    margin: 0 0 30px 0;
+    padding: 0 20px 0 30px;
+}
+
+.forms_pontos_turisticos{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #040D0A;
+    width: 650px;
+    height: 100%;
+    padding: 30px 60px 270px 50px;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #50463a;
+    font-size: 14px;
+    margin: 0 0 25px 5px;
+}
+
+select{
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #50463a;
+    font-size: 14px;
+    margin: 0 0 25px 5px;
+}
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 40px;
+}
+
+.in_line{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.container_radio{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.container_radio label{
+    width: 100%;
+}
+
+.container_pets{
+    width: 80%;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.container_pets input{
+    margin: 1px 10px 1px 1px;
+    width: 10px;
+}
+
+.container_transporte input{
+    margin: 1px 10px 1px 1px;
+    width: 10px;
+}
+
+.container_transporte{
+    width: 110%;
+    display: flex;
+    flex-direction: row;
+}
+
+.campo_descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+textarea{
+    height: 85px;
+    resize: none;
+    outline: none;
+    border: 1px solid #666;
+    padding: 10px;
+}
+
+.buttom_cadastro{
+    margin-top: 18px;
+    border-radius: 10px;
+    background-color: #aee4da9f;
+    border: 1px #040D0A solid;
+    padding: 10px 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+}
+
+.buttom_cadastro:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #040D0A;
+    border: 1px #aee4da80 solid;
+}

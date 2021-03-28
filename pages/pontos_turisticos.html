@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Projeto Traveller - São Paulo</title>
+</head>
+<body>
+
+    <nav class="menu_home">
+        <div class="logo">
+            <p><a class="menu_link" href="../index.html">Projeto Traveller</a></p>
+        </div>
+        <ul class="menu_options">
+            <li><a class="menu_link" href="../index.html">Home</a></li>
+            <li><a class="menu_link" href="../pages/quem_somos.html">Quem Somos</a></li>
+            <li><a class="menu_link" href="../pages/cadastre.html">Cadastre-se</a></li>
+        </ul>
+    </nav>
+
+    <div class="pagina">
+        <div class="banner_lateral_pontos_turisticos"></div>
+
+        <div class="container_conteudo_pontos_turisticos">
+            <div class="titulo_pontos_turisticos">
+                <h1>Conte-nos</h1>
+            </div>
+
+            <div class="subtitulo_pontos_turisticos">
+                <h2>Sua melhor experiência em São Paulo.</h2>
+            </div>
+        </div>
+
+            <div class="forms_pontos_turisticos">
+                <form action="meuscript.jsp" id="dadosForm" name="dadosForm" method="post">
+                
+                <div class="container">
+                    <div class="in_line">
+                        <label for="nomeLocal">Nome do Local:</label>
+                        <input type="text" id="nomeLocal" name="nomeLocal" maxlength="60" placeholder="ex.: MASP" required>
+                    </div>
+
+                    <div class="in_line">
+                        <label for="tipoAtracao">Tipo de Atração:</label>
+                        <select id="tipoAtracao" name="tipoAtracao">
+                            <option value="1" disabled selected>- Selecione -</option>
+                            <option value="2">Museu</option>
+                            <option value="3">Restaurante</option>
+                            <option value="4">Ponto Turístico</option>
+                            <option value="5">Balada</option>
+                            <option value="6">Espaço Cultural</option>
+                            <option value="7">Sala de Concertos</option>
+                            <option value="8">Outro</option>
+                        </select>
+                    </div>
+
+                    <div class="in_line">
+                        <label for="enderecoLocal">Endereço:</label>
+                        <input type="text" id="enderecoLocal" name="enderecoLocal" maxlength="80" placeholder="ex.: Av. Paulista, 1578" required>
+                    </div>
+
+                    <div class="in_line">
+                        <label for="bairroLocal">Bairro:</label>
+                        <input type="text" id="bairroLocal" name="bairroLocal" maxlength="80" placeholder="ex.: Bela Vista" required>
+                    </div>
+
+                    <div class="in_line">
+                        <label for="valorIngresso">Valor do Ingresso:</label>
+                        <input type="number" id="valorIngresso" name="valorIngresso" max="999" min="0" placeholder="ex.: 50,00" required>
+                    </div>
+
+                    <div class="in_line">
+                        <label for="idadeRecomendada">Idade Recomendada:</label>
+                        <input type="number" id="idadeRecomendada" name="idadeRecomendada" max="100" min="0" placeholder="ex.: 18" required>
+                    </div>
+
+                </div>
+                <div class="container_radio">
+                    <div class="container_pets">
+                        <label for="pets">Aceita Pets:</label>
+                        <input type="radio" id="pets1" name="pets" value="0" required><label for="pets1">Sim</label>
+                        <input type="radio" id="pets2" name="pets" value="1" required><label for="pets2">Não</label>
+                    </div>
+
+                    <div class="container_transporte">
+                        <label for="transporte">Como chegou:</label>
+                        <input type="radio" id="transporte1" name="transporte" value="0" required><label for="transporte1">Carro</label>
+                        <input type="radio" id="transporte2" name="transporte" value="2" required><label for="transporte2">Táxi / Uber</label>
+                        <input type="radio" id="transporte3" name="transporte" value="1" required><label for="transporte3">Transporte Público</label>
+                    </div>
+                </div>
+
+                    <div class="campo_descricao">
+                        <label for="informacoes">Descreva sua experiência:</label>
+                        <textarea name="informacoes" id="informações" placeholder="Informações adicionais" maxlength="900" required></textarea>
+                    </div>
+
+                <button type="submit" id="enviar" name="enviar" class="buttom_cadastro">Salvar minha experiência!</button>
+                </form>
+                </div>
+         </div>
+    </div>
+</body>
+</html>

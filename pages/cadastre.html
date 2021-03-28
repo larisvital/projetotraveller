@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Projeto Traveller - São Paulo</title>
+</head>
+<body>
+
+    <nav class="menu_home">
+        <div class="logo">
+            <p><a class="menu_link" href="../index.html">Projeto Traveller</a></p>
+        </div>
+        <ul class="menu_options">
+            <li><a class="menu_link" href="../index.html">Home</a></li>
+            <li><a class="menu_link" href="../pages/quem_somos.html">Quem Somos</a></li>
+            <li><a class="menu_link" href="../pages/cadastre.html">Cadastre-se</a></li>
+        </ul>
+    </nav>
+
+    <div class="pagina">
+        <div class="banner_lateral_cadastro"></div>
+
+        <div class="container_conteudo_cadastre">
+            <div class="titulo_cadastro">
+                <h1>Cadastre-se</h1>
+            </div>
+
+            <div class="subtitulo_cadastro">
+                <h2>Cadastre seus dados,<br>por gentileza.</h2>
+            </div>
+        </div>
+
+            <div class="forms_cadastre">
+                <form action="../pages/pontos_turisticos.html" id="dadosForm" name="dadosForm" method="post">
+                
+                <div class="container">
+                    <div class="in_line">
+                        <label for="nomeUsuario">Nome:</label>
+                        <input type="text" id="nomeUsuario" name="nomeUsuario" placeholder="ex.: João Pedro" required>
+                    </div>
+
+                    <div class="in_line">
+                        <label for="sobrenomeUsuario">Sobrenome:</label>
+                        <input type="text" id="sobrenomeUsuario" name="nomeUsuario" placeholder="ex.: Borges" required>
+                    </div>
+
+
+                    <div class="in_line">
+                        <label for="emailUsuario">E-mail:</label>
+                        <input type="email" id="emailUsuario" name="emailUsuario" placeholder="ex.: joaopedro@email.com" required>
+                    </div>
+
+                    <div class="in_line">
+                        <label for="dataNascimento">Data de Nascimento:</label>
+                        <input type="date" id="dataNascimento" name="dataNascimento" required>
+                    </div>
+
+                    <div class="in_line">
+                        <label for="password">Senha:</label>
+                        <input type="password" id="password" name="password" maxlength="25" placeholder="ex.: j@aopedro123" required>
+                    </div>
+
+                    <div class="in_line">
+                        <label for="password">Confirme sua senha:</label>
+                        <input type="password" id="password" name="password" maxlength="25" placeholder="ex.: j@aopedro123" required>
+                    </div>
+
+                    <div class="in_line">
+                        <label for="generoUsuario">Gênero:</label>
+                        <select id="generoUsuario" name="generoUsuario" required>
+                            <option value="1" disabled selected>Gênero</option>
+                            <option value="2">Feminino</option>
+                            <option value="3">Masculino</option>
+                            <option value="4">Outro</option>
+                        </select>
+                        
+                    </div>
+
+                    <div class="in_line">
+                        <label for="uf">Estado:</label>
+                        <select id="uf" name="uf" required>
+                            <option value="AA" disabled selected>Estado</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                            <option value="EX">Estrangeiro</option>
+                        </select>
+                    </div>
+                    <buttom type="submit"><a class="cadastre" href="../pages/pontos_turisticos.html">Pronto! Quero indicar minha experiência!</a></buttom>
+                </div>
+                </form>
+         </div>
+    </div>
+</body>
+</html>
