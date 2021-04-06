@@ -1,3 +1,2 @@
-# ATENÇÃO
-Atenção: ao fim da página Cadastre-se tem o botão "Pronto! Quero indicar minha experiência!" com o link direcionando para a página de cadastro dos pontos turísticos.<br>
-<br>Atividade Capítulo 8 - Forms
+Atividade para FIAP - Formulários<br>
+Site desenvolvido em HTML e CSS para aplicar os conceitos de formulários aprendidos durante o CST em Sistemas para Internet.
